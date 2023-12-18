@@ -1,0 +1,65 @@
+.cartao img{
+  width: 320px;
+  height: 320px;
+}
+
+.App-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-header ul{
+ list-style: none;
+ display: flex;
+}
+
+.App-header ul li{
+ margin: 70px;
+ 
+}
+
+h1{
+  text-align: center;
+}
+
+P{
+  text-align: center;
+}
+
+.formularios{
+  display: flex;
+  margin-right: 50px;
+
+ 
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 225, 216);
+  width: 600px;
+  height: 600px;
+  padding: 30px;
+}
+
+.cartao{
+margin-left: 300px;
+}
+
+#cpf{
+  width: 50%;
+}
+#nome{
+  width: 80%;
+}
+#email{
+  width: 80%;
+}
+#perfil1{
+  width: 50%;
+}
+
+.check{
+  display: flex;
+  justify-content:space-around;
+}
